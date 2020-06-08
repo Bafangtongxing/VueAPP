@@ -7,9 +7,10 @@ import "./lib/mui/css/mui.min.css"
 import "./lib/mui/css/icons-extra.css"
 Vue.component(Header.name, Header);
 
-import { Swipe, SwipeItem } from 'mint-ui';
+import { Swipe, SwipeItem, Button} from 'mint-ui';
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Button.name, Button);
 
 var vm = new Vue({
   el: "#app",
